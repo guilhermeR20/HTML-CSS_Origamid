@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title> Cursos de HTML</title>
+  <link rel="stylesheet" href="style.css" ><!--link para criar uma relação entre um documento HTML e um arquivo de estilo CSS-->
+<!-- rel define o tipo de arquivo (stylesheet para CSS). É possível linkar outros também como favicons-->
+<!--href define o caminho do arquivo-->
+<!--Pode ser inserido tanto no /head como também no no /body-->
+  <link rel="stylesheet" href="style2.css" ><!--style2 é carregado depois do primeiro documento, isso faz com que as alterações dele sejam feitas em cima do primeiro documento-->
 </head>
-<body>
-  <h1> Carros e Bicicletas</h1>
+
+<body class="codigo">
+  <h1 id="introducao"> Carros e Bicicletas</h1> <!-- ID é um atributo html que adcionar um identificador unico na tag. Pode ser usado como identificador no css ao selecionarmos o elemento: #nomeid  -->
+  <p>Veja mais <a href ="#">produtos.</a></p>
   <a href="index.html"> Inicio </a>
-  <a href="produtos/carros.html">Carros</a>
-  <a href="produtos/bicicletas.html">Bicicletas</a>
+  <a class="design" href="produtos/carros.html">Carros</a>
+  <a class="design" href="produtos/bicicletas.html">Bicicletas</a>
+  <h2 class="design" >Curso de UX Design</h2>
+  <h2 class="azul grande underline">Curso de Código</h2> <!-- Pegou 3 classes de uma vez só-->
 </body>
 </html>

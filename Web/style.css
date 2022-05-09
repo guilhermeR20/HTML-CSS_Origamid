@@ -1,0 +1,37 @@
+/* a { *comentario* Selecionar a tag global (a) para editar os elementos visuais dela *comentario*
+  color: gold;
+  text-decoration: none;
+} */
+
+h1, a { /*Selecionando duas tags globais de uma vez só */
+  color: gold;
+}
+
+p a{ /* selecione todo "a" que tiver como parente o "p" */
+  color: blue;
+}
+
+
+#introducao { /* Classe unica do identificador ID*/
+  color: green;
+}
+
+.codigo{ /*Classe é uma classe :D, mas que diferente do ID pode ser utilizada mais de uma vez*/
+
+}
+
+.codigo .design{ /*Todo elemento que tiver a classe .design que estiver dentro de outro elemento com a classe .codigo vai sofrer essas alterações */
+  color: purple;
+}
+
+.azul { /*Classe especifica para setar a cor azul*/
+  color:blue;
+}
+
+.underline{ /*Classe especifica para setar efeito underline*/
+  text-decoration: underline;
+}
+
+.grande { /*Classe para alterar tamanho da fonte*/
+  font-size: 32px;
+}
