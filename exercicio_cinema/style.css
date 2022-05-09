@@ -1,0 +1,27 @@
+.fonte{
+  font-family: Arial;
+}
+
+.fonte_paragrafo {
+  font-size: 50px;
+}
+
+.estreia_hoje{
+  color: darkred;
+}
+
+.estreia_amanha{
+  color: darkblue;
+}
+
+.cor_fonte_lv2{
+  color: seagreen;
+}
+
+.no_underline{ 
+  text-decoration: none;
+}
+
+.teste{
+  font-size: 50px;
+}
