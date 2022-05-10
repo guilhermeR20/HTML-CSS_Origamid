@@ -1,0 +1,9 @@
+h1{
+  background-color: #8844ee;/* Cor de fundo linha inteira*/
+  color: rgba(255, 255, 255, 0.5); /*Altera transparencia da fonte*/
+}
+
+a{
+  background: seagreen; /*Cor de fundo apenas texto*/
+  color: #fff; /*Cor da fonte*/
+}
