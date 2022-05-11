@@ -1,0 +1,41 @@
+h1{
+  text-align: center;
+}
+
+body{
+  font-family: Arial;
+  grid-template-columns: 1fr 1fr;
+}
+
+h2{
+  margin-top: 0px;
+}
+
+.comprar{
+  background: #a8f;
+  color: #103;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #105;
+  border-radius: 4px;
+}
+
+.item{
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.grid{
+  display: grid; /*Display no formato grid, tudo divido em caixas/colunas*/
+  height: 800px;
+  /* grid-template-columns: 1fr 1fr; Dividir as colunas, fr é uma unidade fracionaria de medida.*/
+  grid-template-columns: 300px 300px 300px;
+  gap: 20px; /*Espaçamento*/
+   align-content: center; /*Alinha conteudo se estiver espaçamento sobrando no grid */
+  justify-content: center; /*Alinha conteudo ao centro*/
+  /* place-content: space-evenly space-evenly; Um atalho que junta align-content e justify-content*/
+  
+}

@@ -1,21 +1,24 @@
 body{
   font-family: Arial;
-  margin: 40px;;
 }
 
 .centralizar{
   text-align: center;
 }
+
 h2, h5{
   
   margin: 20px;
 }
+
 .box_model{
   background-color: #111;
   color: #fff ;
   border-radius: 4px;
   padding-top: 4px;
+  margin: 20px;
 }
+
 .botao{
   background-color: #febe01;
   color: #111;
