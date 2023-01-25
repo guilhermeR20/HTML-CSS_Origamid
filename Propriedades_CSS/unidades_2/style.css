@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+}
+
+
+div {
+    height: 100vh;
+    background: lightblue;
+    width: calc(100vw / 3);
+}
+
+/**vh altura do tamanho da tela visivel
+vw a largura dela **/
+/**Calc permite fazer calculo no css**/
