@@ -1,3 +1,4 @@
+
 .introducao {
     max-width: 1200px;
     padding: 40px 20px;
@@ -26,7 +27,7 @@
     width: 130px;
     height: 100px;
     background: url("../img/detalhe.svg") no-repeat center;
-    position: fixed;
+    position: absolute;
     top: -20px;
     left: -45px;
 }
